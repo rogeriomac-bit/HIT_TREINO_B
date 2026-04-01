@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --font-headline: var(--font-jakarta);
+  --font-label: var(--font-space);
+  --font-body: var(--font-manrope);
+}
+
+.bg-radial-glow {
+  background: radial-gradient(circle at center, rgba(252, 83, 109, 0.08) 0%, rgba(17, 17, 37, 0) 70%);
+}
